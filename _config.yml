@@ -1,7 +1,7 @@
 title: The Canvas Blog
 description: Blog about art, music, and design.
-baseurl: ""
-url: ""
+baseurl: "/newblog.github.io"  # Your repo name (with slash)
+url: "https://thefuzz25.github.io"
 markdown: kramdown
 theme: minima
 sass:
