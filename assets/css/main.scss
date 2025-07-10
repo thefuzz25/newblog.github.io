@@ -8,6 +8,16 @@ body {
   margin: 0;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 60rem;
+  /*padding: 0 10px;*/
+  padding-top: 0;
+  padding-left: 2rem;
+  padding-right:2rem;
+  width: 100%;
+}
+
 .site-header {
   padding: 2rem;
   background-color: #1a1a1a;
