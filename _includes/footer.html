@@ -1,9 +1,31 @@
-<footer>
-  <p>&copy; {{ site.time | date: "%Y" }} The Canvas</p>
-  <nav>
-    <ul>
-      <li><a href="#">Terms & Conditions</a></li>
-      <li><a href="#">Cookies & Policy</a></li>
-    </ul>
-  </nav>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <h2>THE CANVAS</h2>
+      <p>Blog about <span>art</span> <span>music</span> <span>design.</span></p>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="/">Latest</a>
+      <a href="/trending">Trending</a>
+      <a href="/art">Art</a>
+      <a href="/design">Design</a>
+      <a href="/music">Music</a>
+      <a href="/podcast">Podcast</a>
+    </nav>
+
+    <div class="footer-social">
+      <a href="#"><img src="{{ site.baseurl }}/assets/icons/instagram.svg" alt="Instagram" /></a>
+      <a href="#"><img src="{{ site.baseurl }}/assets/icons/twitter.svg" alt="Twitter" /></a>
+      <a href="#"><img src="{{ site.baseurl }}/assets/icons/facebook.svg" alt="Facebook" /></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Cookie & Policy</a>
+    </div>
+    <p>© 2024 The Canvas. All rights reserved.</p>
+  </div>
 </footer>
