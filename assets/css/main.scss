@@ -17,6 +17,92 @@ body {
 
 .site-header {
   background-color: #1e1e1e;
+  padding: 2rem 0;
+
+  // Ensure content is centered within container
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .header-top {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mini-title {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #888;
+    letter-spacing: 1px;
+  }
+
+  .site-nav ul {
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-nav li a {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .site-nav li a:hover {
+    text-decoration: underline;
+  }
+
+  .branding-row {
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+
+  .site-title {
+    font-size: 5rem;     // Bigger to match mockup
+    line-height: 1;
+  }
+
+  .site-tagline {
+    font-size: 1.4rem;
+    text-align: left;     // Bring left-aligned under title
+    margin: 0 0 0 2rem;
+    span {
+      display: block;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  .header-icons {
+    margin-top: 0;        // Align vertically with tagline
+  }
+
+  .header-icons a {
+    background-color: #f36b5f;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .header-icons img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}
+
+// Make links uppercase to match visual
+.site-nav li a {
+  text-transform: uppercase;
+}
+
+// Optional: Narrow letter-spacing for the logo
+.site-title {
+  letter-spacing: -0.02em;
+}
+
+/*.site-header {
+  background-color: #1e1e1e;
   color: #fff;
   padding: 2rem 0;
 
@@ -102,7 +188,7 @@ body {
       height: 1.25rem;
     }
   }
-}
+}*/
 
 /*.site-header {
   padding: 2rem;
@@ -202,73 +288,6 @@ body {
   height: 100%;
   display: block;
   filter: brightness(0) invert(1);
-}
-
-/*.site-header {
-  background: #2b2929;
-  color: #ddd;
-  padding: 1rem 2rem;
-
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    small.label {
-      font-size: 0.85rem;
-      letter-spacing: 1px;
-    }
-    .nav-primary a {
-      margin-left: 1.5rem;
-      color: #eee;
-      font-size: 0.9rem;
-      text-decoration: none;
-
-      &:hover {
-        color: #fff;
-      }
-    }
-  }
-
-  .header-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 0;
-
-    .logo-group {
-      h1.site-logo {
-        font-size: 4rem;
-        color: #fff;
-        margin: 0;
-        line-height: 1;
-      }
-      p.subtitle {
-        font-size: 1rem;
-        color: #aaa;
-        margin-top: 0.5rem;
-        span {
-          font-weight: bold;
-          margin: 0 0.3rem;
-        }
-      }
-    }
-
-    .header-icons {
-      display: flex;
-      gap: 1rem;
-
-      img {
-        width: 32px;
-        height: 32px;
-        filter: brightness(0) invert(1);
-        transition: opacity 0.3s;
-
-        &:hover {
-          opacity: 0.7;
-        }
-      }
-    }
-  }
 }*/
 
 header, footer {
