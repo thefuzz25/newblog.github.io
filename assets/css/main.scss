@@ -15,74 +15,61 @@ body {
   padding-right: 2rem;
 }
 
+/* Enhance site-header layout */
 .site-header {
-  background-color: #1e1e1e;
-  padding: 2rem 0;
-
-  // Ensure content is centered within container
   .container {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .header-top {
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .mini-title {
-    margin: 0;
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #888;
-    letter-spacing: 1px;
-  }
-
-  .site-nav ul {
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .site-nav li a {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #fff;
-  }
-
-  .site-nav li a:hover {
-    text-decoration: underline;
-  }
-
-  .branding-row {
+  .branding-row, .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     flex-wrap: nowrap;
-    align-items: flex-end;
   }
 
   .site-title {
-    font-size: 5rem;     // Bigger to match mockup
+    font-size: 5.5rem;
     line-height: 1;
+    font-weight: 900;
+    margin: 0;
   }
 
   .site-tagline {
-    font-size: 1.4rem;
-    text-align: left;     // Bring left-aligned under title
-    margin: 0 0 0 2rem;
-    span {
-      display: block;
-      margin-bottom: 0.1rem;
-    }
+    font-size: 1.35rem;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+  }
+
+  .site-tagline span {
+    display: block;
   }
 
   .header-icons {
-    margin-top: 0;        // Align vertically with tagline
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
   }
 
   .header-icons a {
-    background-color: #f36b5f;
     width: 3rem;
     height: 3rem;
+    background-color: #f36b5f;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   }
 
   .header-icons img {
@@ -91,15 +78,6 @@ body {
   }
 }
 
-// Make links uppercase to match visual
-.site-nav li a {
-  text-transform: uppercase;
-}
-
-// Optional: Narrow letter-spacing for the logo
-.site-title {
-  letter-spacing: -0.02em;
-}
 
 /*.site-header {
   background-color: #1e1e1e;
