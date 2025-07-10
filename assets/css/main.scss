@@ -8,6 +8,50 @@ body {
   margin: 0;
 }
 
+.site-header {
+  background: #2b2929;
+  color: #ddd;
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+
+    small {
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    }
+
+    .nav-primary a {
+      margin-left: 1.5rem;
+      color: #eee;
+      text-decoration: none;
+    }
+  }
+
+  .header-main {
+    text-align: center;
+    padding: 2rem 0;
+
+    .site-logo {
+      font-size: 4rem;
+      color: #fff;
+      margin: 0;
+    }
+
+    .site-sub {
+      font-size: 1.1rem;
+      color: #aaa;
+
+      span {
+        font-weight: bold;
+        margin: 0 0.3rem;
+        color: #ddd;
+      }
+    }
+  }
+}
+
 header, footer {
   background: #111;
   padding: 1em;
