@@ -11,7 +11,7 @@ title: Home
   <article>
     <h2>The Timeless Allure of Film Photography</h2>
     <p>In the digital age, where cameras are in every pocket...</p>
-    <img src="/assets/images/placeholder.jpg" alt="Film Photography" />
+    <img src="{{ site.baseurl }}/assets/images/placeholder.jpg" alt="Film Photography" />
     <p>Tags: <span>Trends</span>, <span>Photography</span>, <span>Film</span></p>
   </article>
 </section>
