@@ -1,0 +1,8 @@
+title: The Canvas Blog
+description: Blog about art, music, and design.
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: minima
+sass:
+  sass_dir: assets/css
